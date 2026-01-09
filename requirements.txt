@@ -1,0 +1,7 @@
+streamlit==1.52.0
+pandas==2.3.2
+openai==2.14.0
+pypdf
+pypdf2  # pypdf and pypdf2 sometimes both required depending on Jetson ARM builds
+sqlalchemy
+psycopg2-binary
