@@ -250,7 +250,7 @@ def extract_pdf_chunks(uploaded_file) -> List[dict]:
 def main():
     st.title("PDF文件向量資料庫載入器")
 
-    st.sidebar.header("Settings")
+    st.sidebar.header("設定")
     api_key = st.sidebar.text_input(
         "OpenAI API Key (for embeddings)",
         type="password",
