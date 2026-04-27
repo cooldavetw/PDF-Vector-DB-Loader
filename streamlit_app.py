@@ -27,7 +27,7 @@ RECORD_MANAGER_SCHEMA = "record_manager"
 
 EMBEDDING_MODEL = "embedding"   # OpenAI embedding model
 EMBEDDING_DIM = 4096                         # Dimension for text-embedding-3-small
-OPENAI_DEFAULT_BASE_URL = "http://192.168.66.26:4000/v1"
+OPENAI_DEFAULT_BASE_URL = "http://llm-proxy:4000/v1"
 
 
 # ---------------------------------------------------------------------
